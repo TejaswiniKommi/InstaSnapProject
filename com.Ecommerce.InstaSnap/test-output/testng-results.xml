@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Launched Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Login sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Kids Product Created]]>
+    </line>
+    <line>
+      <![CDATA[Logout Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Login sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Kids Product Updated]]>
+    </line>
+    <line>
+      <![CDATA[Logout Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Login sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Kids Product Updated]]>
+    </line>
+    <line>
+      <![CDATA[Logout Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Login sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Kids Product Created]]>
+    </line>
+    <line>
+      <![CDATA[Logout Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Login sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Kids Product Updated]]>
+    </line>
+    <line>
+      <![CDATA[Logout Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Login sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Kids Product Updated]]>
+    </line>
+    <line>
+      <![CDATA[Logout Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Succesfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-07T16:27:27 IST" name="RegressionSuite" finished-at="2024-11-07T16:27:27 IST" duration-ms="75">
+    <groups>
+    </groups>
+    <test started-at="2024-11-07T16:27:27 IST" name="Test" finished-at="2024-11-07T16:27:27 IST" duration-ms="75">
+      <class name="com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="BrowserSetup" finished-at="2024-11-07T16:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="login" finished-at="2024-11-07T16:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createProduct()[pri:1, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="createProduct" finished-at="2024-11-07T16:27:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Kids Product Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="logout" finished-at="2024-11-07T16:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="login" finished-at="2024-11-07T16:27:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="updateProduct()[pri:2, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="updateProduct" finished-at="2024-11-07T16:27:27 IST" depends-on-methods="com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct.createProduct" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Kids Product Updated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="logout" finished-at="2024-11-07T16:27:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="login" finished-at="2024-11-07T16:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="updateProduct()[pri:2, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="updateProduct" finished-at="2024-11-07T16:27:27 IST" depends-on-methods="com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct.createProduct" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Kids Product Updated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="logout" finished-at="2024-11-07T16:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="TerminateBrowser()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct@229c6181]" started-at="2024-11-07T16:27:27 IST" name="TerminateBrowser" finished-at="2024-11-07T16:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TerminateBrowser -->
+      </class> <!-- com.Ecommerce.InstaSnap.ProductTest.VerifyKidsProduct -->
+      <class name="com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="BrowserSetup" finished-at="2024-11-07T16:27:27 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="login" finished-at="2024-11-07T16:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createProduct()[pri:1, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="createProduct" finished-at="2024-11-07T16:27:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Kids Product Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="logout" finished-at="2024-11-07T16:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="updateProduct()[pri:2, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="updateProduct" finished-at="2024-11-07T16:27:27 IST" depends-on-methods="com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct.createProduct" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Kids Product Updated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="login" finished-at="2024-11-07T16:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="logout" finished-at="2024-11-07T16:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="login" finished-at="2024-11-07T16:27:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="updateProduct()[pri:2, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="updateProduct" finished-at="2024-11-07T16:27:27 IST" depends-on-methods="com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct.createProduct" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Kids Product Updated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="logout" finished-at="2024-11-07T16:27:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="TerminateBrowser()[pri:0, instance:com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct@4a883b15]" started-at="2024-11-07T16:27:27 IST" name="TerminateBrowser" finished-at="2024-11-07T16:27:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TerminateBrowser -->
+      </class> <!-- com.Ecommerce.InstaSnap.ProductTest.VerifyElectronicProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
